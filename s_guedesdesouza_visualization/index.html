@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	
+
+
+	<head>
+		
+		<title>Javascript & Visualization Assignment</title>
+		<link href="css/app.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+
+
+<body>
+	
+	<header>
+		<div id="mainnav">
+			<div id="navwrapper">
+				<div id="logo">
+					<img src="images/logo.png" alt="logo">
+				</div>
+				<div id="title">
+					<h1> Winter Olympics Statistics </h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+	<div id="wrapper">
+		<div id="bodycontent">
+			<h1>Some interesting data on the Winter Olympics</h1>
+			<p>The Winter Olympics have been a thing since 1924. With so much history behind it, its bound to be a source of all sorts of interesting data to visualize. Well, how about I show you what I mean? Below are a few graphics that demonstrate what can be done with such data:</p>
+			<br>
+			
+			<h2>Most Wins by Medal Count</h2>
+			<canvas id="barChart"></canvas>
+			<hr />
+
+			<h2>Yearly Gender Distribution of Athletes</h2>
+			<canvas id="lineChart"></canvas>
+			<hr />
+
+			<h2>Athlete with the most Medals</h2>
+			<h3>Marit Bjørgen</h3>
+			<img src="images/MaritBjorgen.png" alt="MaritBjorgen">
+			<canvas id="pieChart"></canvas>
+			<hr />
+
+			<h2>Canada's Performance Throughout the Years</h2>
+			<canvas id="advancedChart"></canvas>
+		</div>
+	</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+
+
+
+</html>
